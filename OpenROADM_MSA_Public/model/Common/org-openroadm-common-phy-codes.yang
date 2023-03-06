@@ -315,11 +315,11 @@ module org-openroadm-common-phy-codes {
   }
 
   typedef compliance-codes-union {
-    type union {
+    // type union {
       type identityref { base client-phy-code-identity; }
-      type identityref { base compliance-code-identity; }
-    }
-    default "org-openroadm-common-phy-codes:phy-code-none";
+    //  type identityref { base compliance-code-identity; }
+    // }
+    // default "org-openroadm-common-phy-codes:phy-code-none";
     description
       "Compliance codes supported in OpenROADM.";
   }
