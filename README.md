@@ -7,5 +7,6 @@ docker run -it sysrepo_tester<br/>
 
 
 <b>inside the container:</b><br/>
+cd /home<br/>
 python3 install_yang.py<br/>
 python3 delete_yang.py
